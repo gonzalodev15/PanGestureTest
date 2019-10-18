@@ -51,20 +51,20 @@ class ViewController: UIViewController {
         
         if sender.state == UIGestureRecognizer.State.ended {
             
-            if card.center.x < 75 {
+            if card.center.x < 85 {
                 // Move off to the left
                 UIView.animate(withDuration: 0.3, animations: {
-                    card.center = CGPoint(x: card.center.x - 200, y: card.center.y - 75)
+                    card.center = CGPoint(x: card.center.x - 300, y: card.center.y + 150)
                 })
                 return
-            } else if card.center.x > (view.frame.width - 75){
+            } else if card.center.x > (view.frame.width - 85){
                 // Move off to the right
                 UIView.animate(withDuration: 0.3, animations: {
-                    card.center = CGPoint(x: card.center.x + 200, y: card.center.y - 75 )
+                    card.center = CGPoint(x: card.center.x + 300, y: card.center.y + 150 )
                 })
                 return
             }
-            
+            resetCard()
 
         }
 
