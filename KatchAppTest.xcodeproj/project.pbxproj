@@ -874,6 +874,7 @@
 				DEVELOPMENT_ASSET_PATHS = "SwiftyJSON-master/SwiftyJSON.xcodeproj Alamofire-master/Alamofire.xcodeproj AlamofireImage-master/AlamofireImage.xcodeproj";
 				DEVELOPMENT_TEAM = P25XQ256JU;
 				INFOPLIST_FILE = KatchAppTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -893,6 +894,7 @@
 				DEVELOPMENT_ASSET_PATHS = "SwiftyJSON-master/SwiftyJSON.xcodeproj Alamofire-master/Alamofire.xcodeproj AlamofireImage-master/AlamofireImage.xcodeproj";
 				DEVELOPMENT_TEAM = P25XQ256JU;
 				INFOPLIST_FILE = KatchAppTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -912,7 +914,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P25XQ256JU;
 				INFOPLIST_FILE = KatchAppTestTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -934,7 +936,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P25XQ256JU;
 				INFOPLIST_FILE = KatchAppTestTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -955,6 +957,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P25XQ256JU;
 				INFOPLIST_FILE = KatchAppTestUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -975,6 +978,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P25XQ256JU;
 				INFOPLIST_FILE = KatchAppTestUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

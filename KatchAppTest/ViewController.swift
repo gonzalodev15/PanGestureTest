@@ -55,16 +55,30 @@ class ViewController: UIViewController {
                 // Move off to the left
                 UIView.animate(withDuration: 0.3, animations: {
                     card.center = CGPoint(x: card.center.x - 300, y: card.center.y + 150)
+                    card.alpha = 0
                 })
+                currentDigimon += 1
+                if currentDigimon <= 99 {
+                    let url = URL(string: digimonArray[currentDigimon].sprite)!
+                    pictureImageView.af_setImage(withURL: url)
+                }
+                resetCard()
                 return
             } else if card.center.x > (view.frame.width - 85){
                 // Move off to the right
                 UIView.animate(withDuration: 0.3, animations: {
                     card.center = CGPoint(x: card.center.x + 300, y: card.center.y + 150 )
+                    card.alpha = 0
                 })
+                currentDigimon += 1
+                if currentDigimon <= 99 {
+                    let url = URL(string: digimonArray[currentDigimon].sprite)!
+                    pictureImageView.af_setImage(withURL: url)
+                }
+                
+                resetCard()
                 return
             }
-            resetCard()
 
         }
 
@@ -75,9 +89,11 @@ class ViewController: UIViewController {
     }
     
     func resetCard(){
+        self.card.center = self.view.center
         UIView.animate(withDuration: 0.2, animations: {
-            self.card.center = self.view.center
+            self.card.alpha = 1
         })
+        
     }
     
 /*    @objc func handleSwipes(_ sender:UISwipeGestureRecognizer) {
