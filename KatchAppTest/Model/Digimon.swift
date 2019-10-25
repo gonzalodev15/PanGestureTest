@@ -1,10 +1,4 @@
-//
-//  Pokemon.swift
-//  KatchAppTest
-//
-//  Created by Christian Gonzalo on 10/18/19.
-//  Copyright © 2019 Christian Gonzalo. All rights reserved.
-//
+
 
 import Foundation
 import SwiftyJSON

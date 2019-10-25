@@ -3,15 +3,26 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		40BD927725BDB03A3A583CCE /* Pods_KatchAppTest_KatchAppTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51B4A2F22B6DF63F02EEE396 /* Pods_KatchAppTest_KatchAppTestUITests.framework */; };
+		67C483C1812FAD4FA5E1C139 /* Pods_KatchAppTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B28E5BD68B994B589334C43F /* Pods_KatchAppTestTests.framework */; };
+		E2070F25236201E900E8CD75 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2070F24236201E900E8CD75 /* Utilities.swift */; };
+		E2070F29236205FB00E8CD75 /* FirstScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2070F28236205FB00E8CD75 /* FirstScreenViewController.swift */; };
+		E2070F2B23620F0D00E8CD75 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E2070F2A23620F0D00E8CD75 /* GoogleService-Info.plist */; };
+		E2070F642362137B00E8CD75 /* Pods_KatchAppTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7767628C4EC7F33080D952D2 /* Pods_KatchAppTest.framework */; };
+		E2070F652362137B00E8CD75 /* Pods_KatchAppTest.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7767628C4EC7F33080D952D2 /* Pods_KatchAppTest.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E2070F67236242F000E8CD75 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2070F66236242F000E8CD75 /* Constants.swift */; };
 		E2C7D74F235A0A9C00AE68F6 /* Digimon.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C7D74E235A0A9C00AE68F6 /* Digimon.swift */; };
+		E2E8A85E23609D440049E0C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2E8A85D23609D440049E0C2 /* Main.storyboard */; };
+		E2E8A86023609D7F0049E0C2 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E8A85F23609D7F0049E0C2 /* LogInViewController.swift */; };
+		E2E8A8A12360B9A70049E0C2 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E8A8A02360B9A70049E0C2 /* SignUpViewController.swift */; };
 		E2F3AB5B23578A030091F05B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F3AB5A23578A030091F05B /* AppDelegate.swift */; };
 		E2F3AB5D23578A030091F05B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F3AB5C23578A030091F05B /* SceneDelegate.swift */; };
-		E2F3AB5F23578A030091F05B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F3AB5E23578A030091F05B /* ViewController.swift */; };
-		E2F3AB6223578A030091F05B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2F3AB6023578A030091F05B /* Main.storyboard */; };
+		E2F3AB5F23578A030091F05B /* DigimonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F3AB5E23578A030091F05B /* DigimonViewController.swift */; };
+		E2F3AB6223578A030091F05B /* Digimon.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2F3AB6023578A030091F05B /* Digimon.storyboard */; };
 		E2F3AB6523578A030091F05B /* KatchAppTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E2F3AB6323578A030091F05B /* KatchAppTest.xcdatamodeld */; };
 		E2F3AB6723578A050091F05B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2F3AB6623578A050091F05B /* Assets.xcassets */; };
 		E2F3AB6A23578A050091F05B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2F3AB6823578A050091F05B /* LaunchScreen.storyboard */; };
@@ -204,6 +215,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				E2070F652362137B00E8CD75 /* Pods_KatchAppTest.framework in Embed Frameworks */,
 				E2F3ABF22357BBAF0091F05B /* Alamofire.framework in Embed Frameworks */,
 				E2F3ABF42357BBAF0091F05B /* AlamofireImage.framework in Embed Frameworks */,
 				E2F3ABF62357BBAF0091F05B /* SwiftyJSON.framework in Embed Frameworks */,
@@ -214,16 +226,31 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		09CB0660AC388C7F84915855 /* Pods-KatchAppTest-KatchAppTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KatchAppTest-KatchAppTestUITests.release.xcconfig"; path = "Target Support Files/Pods-KatchAppTest-KatchAppTestUITests/Pods-KatchAppTest-KatchAppTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		25E44F79CC6DAD8DA7BEC4A6 /* Pods-KatchAppTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KatchAppTest.debug.xcconfig"; path = "Target Support Files/Pods-KatchAppTest/Pods-KatchAppTest.debug.xcconfig"; sourceTree = "<group>"; };
+		25FD0E17D4C04BA4BEAAA045 /* Pods-KatchAppTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KatchAppTest.release.xcconfig"; path = "Target Support Files/Pods-KatchAppTest/Pods-KatchAppTest.release.xcconfig"; sourceTree = "<group>"; };
+		3E97BB3240614BDA5637D0E8 /* Pods-KatchAppTest-KatchAppTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KatchAppTest-KatchAppTestUITests.debug.xcconfig"; path = "Target Support Files/Pods-KatchAppTest-KatchAppTestUITests/Pods-KatchAppTest-KatchAppTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		51B4A2F22B6DF63F02EEE396 /* Pods_KatchAppTest_KatchAppTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KatchAppTest_KatchAppTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		542A0E833EAFB0EB10B19CBA /* Pods-KatchAppTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KatchAppTestTests.debug.xcconfig"; path = "Target Support Files/Pods-KatchAppTestTests/Pods-KatchAppTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7767628C4EC7F33080D952D2 /* Pods_KatchAppTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KatchAppTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B28E5BD68B994B589334C43F /* Pods_KatchAppTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KatchAppTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4C358DB980D8F0A22A4C2E4 /* Pods-KatchAppTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KatchAppTestTests.release.xcconfig"; path = "Target Support Files/Pods-KatchAppTestTests/Pods-KatchAppTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		E2070F24236201E900E8CD75 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		E2070F28236205FB00E8CD75 /* FirstScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstScreenViewController.swift; sourceTree = "<group>"; };
+		E2070F2A23620F0D00E8CD75 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E2070F66236242F000E8CD75 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		E2C7D74E235A0A9C00AE68F6 /* Digimon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Digimon.swift; sourceTree = "<group>"; };
+		E2E8A85D23609D440049E0C2 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		E2E8A85F23609D7F0049E0C2 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		E2E8A8A02360B9A70049E0C2 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		E2F3AB5723578A030091F05B /* KatchAppTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KatchAppTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2F3AB5A23578A030091F05B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E2F3AB5C23578A030091F05B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E2F3AB5E23578A030091F05B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E2F3AB6123578A030091F05B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E2F3AB5E23578A030091F05B /* DigimonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigimonViewController.swift; sourceTree = "<group>"; };
+		E2F3AB6123578A030091F05B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Digimon.storyboard; sourceTree = "<group>"; };
 		E2F3AB6423578A030091F05B /* KatchAppTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KatchAppTest.xcdatamodel; sourceTree = "<group>"; };
 		E2F3AB6623578A050091F05B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2F3AB6923578A050091F05B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		E2F3AB6B23578A050091F05B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E2F3AB7023578A050091F05B /* KatchAppTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KatchAppTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2F3AB7423578A050091F05B /* KatchAppTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KatchAppTestTests.swift; sourceTree = "<group>"; };
 		E2F3AB7623578A050091F05B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -241,6 +268,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2070F642362137B00E8CD75 /* Pods_KatchAppTest.framework in Frameworks */,
 				E2F3ABF12357BBAF0091F05B /* Alamofire.framework in Frameworks */,
 				E2F3ABF32357BBAF0091F05B /* AlamofireImage.framework in Frameworks */,
 				E2F3ABF52357BBAF0091F05B /* SwiftyJSON.framework in Frameworks */,
@@ -251,6 +279,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67C483C1812FAD4FA5E1C139 /* Pods_KatchAppTestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,12 +287,55 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40BD927725BDB03A3A583CCE /* Pods_KatchAppTest_KatchAppTestUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F5C4D0A6829C334575893B7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				25E44F79CC6DAD8DA7BEC4A6 /* Pods-KatchAppTest.debug.xcconfig */,
+				25FD0E17D4C04BA4BEAAA045 /* Pods-KatchAppTest.release.xcconfig */,
+				3E97BB3240614BDA5637D0E8 /* Pods-KatchAppTest-KatchAppTestUITests.debug.xcconfig */,
+				09CB0660AC388C7F84915855 /* Pods-KatchAppTest-KatchAppTestUITests.release.xcconfig */,
+				542A0E833EAFB0EB10B19CBA /* Pods-KatchAppTestTests.debug.xcconfig */,
+				B4C358DB980D8F0A22A4C2E4 /* Pods-KatchAppTestTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E2070F0B236201D800E8CD75 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E2070F24236201E900E8CD75 /* Utilities.swift */,
+				E2070F66236242F000E8CD75 /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		E2B1D0CD23634F7F0008C602 /* Digimon */ = {
+			isa = PBXGroup;
+			children = (
+				E2F3AB5E23578A030091F05B /* DigimonViewController.swift */,
+				E2F3AB6023578A030091F05B /* Digimon.storyboard */,
+			);
+			path = Digimon;
+			sourceTree = "<group>";
+		};
+		E2E8A84423609D250049E0C2 /* LogIn */ = {
+			isa = PBXGroup;
+			children = (
+				E2E8A85D23609D440049E0C2 /* Main.storyboard */,
+				E2E8A85F23609D7F0049E0C2 /* LogInViewController.swift */,
+				E2E8A8A02360B9A70049E0C2 /* SignUpViewController.swift */,
+				E2070F28236205FB00E8CD75 /* FirstScreenViewController.swift */,
+			);
+			path = LogIn;
+			sourceTree = "<group>";
+		};
 		E2F3AB4E23578A030091F05B = {
 			isa = PBXGroup;
 			children = (
@@ -272,6 +344,7 @@
 				E2F3AB7E23578A050091F05B /* KatchAppTestUITests */,
 				E2F3AB5823578A030091F05B /* Products */,
 				E2F3AB952357BAA70091F05B /* Frameworks */,
+				3F5C4D0A6829C334575893B7 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -288,15 +361,16 @@
 		E2F3AB5923578A030091F05B /* KatchAppTest */ = {
 			isa = PBXGroup;
 			children = (
+				E2070F0B236201D800E8CD75 /* Helpers */,
 				E2F3AB942357B62D0091F05B /* Model */,
 				E2F3AB8D2357AAFA0091F05B /* Network */,
+				E2E8A84423609D250049E0C2 /* LogIn */,
+				E2B1D0CD23634F7F0008C602 /* Digimon */,
 				E2F3AB5A23578A030091F05B /* AppDelegate.swift */,
 				E2F3AB5C23578A030091F05B /* SceneDelegate.swift */,
-				E2F3AB5E23578A030091F05B /* ViewController.swift */,
-				E2F3AB6023578A030091F05B /* Main.storyboard */,
 				E2F3AB6623578A050091F05B /* Assets.xcassets */,
 				E2F3AB6823578A050091F05B /* LaunchScreen.storyboard */,
-				E2F3AB6B23578A050091F05B /* Info.plist */,
+				E2070F2A23620F0D00E8CD75 /* GoogleService-Info.plist */,
 				E2F3AB6323578A030091F05B /* KatchAppTest.xcdatamodeld */,
 			);
 			path = KatchAppTest;
@@ -342,6 +416,9 @@
 				E2F3ABC72357BAC60091F05B /* AlamofireImage.xcodeproj */,
 				E2F3ABAE2357BABB0091F05B /* SwiftyJSON.xcodeproj */,
 				E2F3AB962357BAA70091F05B /* Alamofire.xcodeproj */,
+				7767628C4EC7F33080D952D2 /* Pods_KatchAppTest.framework */,
+				51B4A2F22B6DF63F02EEE396 /* Pods_KatchAppTest_KatchAppTestUITests.framework */,
+				B28E5BD68B994B589334C43F /* Pods_KatchAppTestTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -396,10 +473,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E2F3AB8423578A050091F05B /* Build configuration list for PBXNativeTarget "KatchAppTest" */;
 			buildPhases = (
+				D2679FE6F74EB3CB08E2332B /* [CP] Check Pods Manifest.lock */,
 				E2F3AB5323578A030091F05B /* Sources */,
 				E2F3AB5423578A030091F05B /* Frameworks */,
 				E2F3AB5523578A030091F05B /* Resources */,
 				E2F3ABF72357BBAF0091F05B /* Embed Frameworks */,
+				CF818C86C47A3183AD065B65 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -414,6 +493,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E2F3AB8723578A050091F05B /* Build configuration list for PBXNativeTarget "KatchAppTestTests" */;
 			buildPhases = (
+				F8BB27E21ABF8785E0121799 /* [CP] Check Pods Manifest.lock */,
 				E2F3AB6C23578A050091F05B /* Sources */,
 				E2F3AB6D23578A050091F05B /* Frameworks */,
 				E2F3AB6E23578A050091F05B /* Resources */,
@@ -432,9 +512,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E2F3AB8A23578A050091F05B /* Build configuration list for PBXNativeTarget "KatchAppTestUITests" */;
 			buildPhases = (
+				79F78DB4BE4477101E3F769B /* [CP] Check Pods Manifest.lock */,
 				E2F3AB7723578A050091F05B /* Sources */,
 				E2F3AB7823578A050091F05B /* Frameworks */,
 				E2F3AB7923578A050091F05B /* Resources */,
+				5C8D19857AAEC2BBE1973688 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -665,9 +747,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2E8A85E23609D440049E0C2 /* Main.storyboard in Resources */,
+				E2070F2B23620F0D00E8CD75 /* GoogleService-Info.plist in Resources */,
 				E2F3AB6A23578A050091F05B /* LaunchScreen.storyboard in Resources */,
 				E2F3AB6723578A050091F05B /* Assets.xcassets in Resources */,
-				E2F3AB6223578A030091F05B /* Main.storyboard in Resources */,
+				E2F3AB6223578A030091F05B /* Digimon.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -687,16 +771,124 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5C8D19857AAEC2BBE1973688 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KatchAppTest-KatchAppTestUITests/Pods-KatchAppTest-KatchAppTestUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KatchAppTest-KatchAppTestUITests/Pods-KatchAppTest-KatchAppTestUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KatchAppTest-KatchAppTestUITests/Pods-KatchAppTest-KatchAppTestUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79F78DB4BE4477101E3F769B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KatchAppTest-KatchAppTestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF818C86C47A3183AD065B65 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KatchAppTest/Pods-KatchAppTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KatchAppTest/Pods-KatchAppTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KatchAppTest/Pods-KatchAppTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2679FE6F74EB3CB08E2332B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KatchAppTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8BB27E21ABF8785E0121799 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KatchAppTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E2F3AB5323578A030091F05B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				E2C7D74F235A0A9C00AE68F6 /* Digimon.swift in Sources */,
-				E2F3AB5F23578A030091F05B /* ViewController.swift in Sources */,
+				E2F3AB5F23578A030091F05B /* DigimonViewController.swift in Sources */,
+				E2070F67236242F000E8CD75 /* Constants.swift in Sources */,
 				E2F3AB6523578A030091F05B /* KatchAppTest.xcdatamodeld in Sources */,
 				E2F3AB5B23578A030091F05B /* AppDelegate.swift in Sources */,
+				E2E8A86023609D7F0049E0C2 /* LogInViewController.swift in Sources */,
+				E2E8A8A12360B9A70049E0C2 /* SignUpViewController.swift in Sources */,
 				E2F3AB912357AB4D0091F05B /* DigimonApi.swift in Sources */,
+				E2070F25236201E900E8CD75 /* Utilities.swift in Sources */,
+				E2070F29236205FB00E8CD75 /* FirstScreenViewController.swift in Sources */,
 				E2F3AB5D23578A030091F05B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -733,12 +925,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E2F3AB6023578A030091F05B /* Main.storyboard */ = {
+		E2F3AB6023578A030091F05B /* Digimon.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				E2F3AB6123578A030091F05B /* Base */,
 			);
-			name = Main.storyboard;
+			name = Digimon.storyboard;
 			sourceTree = "<group>";
 		};
 		E2F3AB6823578A050091F05B /* LaunchScreen.storyboard */ = {
@@ -868,10 +1060,11 @@
 		};
 		E2F3AB8523578A050091F05B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25E44F79CC6DAD8DA7BEC4A6 /* Pods-KatchAppTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "SwiftyJSON-master/SwiftyJSON.xcodeproj Alamofire-master/Alamofire.xcodeproj AlamofireImage-master/AlamofireImage.xcodeproj";
+				DEVELOPMENT_ASSET_PATHS = "SwiftyJSON-master/SwiftyJSON.xcodeproj AlamofireImage-master/AlamofireImage.xcodeproj Alamofire-master/Alamofire.xcodeproj";
 				DEVELOPMENT_TEAM = P25XQ256JU;
 				INFOPLIST_FILE = KatchAppTest/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -888,10 +1081,11 @@
 		};
 		E2F3AB8623578A050091F05B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25FD0E17D4C04BA4BEAAA045 /* Pods-KatchAppTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "SwiftyJSON-master/SwiftyJSON.xcodeproj Alamofire-master/Alamofire.xcodeproj AlamofireImage-master/AlamofireImage.xcodeproj";
+				DEVELOPMENT_ASSET_PATHS = "SwiftyJSON-master/SwiftyJSON.xcodeproj AlamofireImage-master/AlamofireImage.xcodeproj Alamofire-master/Alamofire.xcodeproj";
 				DEVELOPMENT_TEAM = P25XQ256JU;
 				INFOPLIST_FILE = KatchAppTest/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -908,6 +1102,7 @@
 		};
 		E2F3AB8823578A050091F05B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 542A0E833EAFB0EB10B19CBA /* Pods-KatchAppTestTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -930,6 +1125,7 @@
 		};
 		E2F3AB8923578A050091F05B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4C358DB980D8F0A22A4C2E4 /* Pods-KatchAppTestTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -952,6 +1148,7 @@
 		};
 		E2F3AB8B23578A050091F05B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E97BB3240614BDA5637D0E8 /* Pods-KatchAppTest-KatchAppTestUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -973,6 +1170,7 @@
 		};
 		E2F3AB8C23578A050091F05B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09CB0660AC388C7F84915855 /* Pods-KatchAppTest-KatchAppTestUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

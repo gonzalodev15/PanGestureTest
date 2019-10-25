@@ -1,0 +1,6 @@
+framework module Pods_KatchAppTest_KatchAppTestUITests {
+  umbrella header "Pods-KatchAppTest-KatchAppTestUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
